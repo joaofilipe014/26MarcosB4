@@ -1,5 +1,8 @@
-package java.com.biblioteca.biblioteca.repository;
+package com.biblioteca.biblioteca.repository;
 
-public interface LivroRepository extends JpaRepository <LivrosModel, Long>{
+import com.biblioteca.biblioteca.model.Livro;
+import org.springframework.data.jpa.repository.JpaRepository;
+
+public interface LivroRepository extends JpaRepository<Livro, Long> {
 
 }
